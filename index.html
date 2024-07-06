@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlazarCode IT - Software Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about, .services, .contact {
+            margin-bottom: 40px;
+        }
+        .about h2, .services h2, .contact h2 {
+            color: #004080;
+            margin-bottom: 20px;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li {
+            background: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #004080;
+            color: #fff;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BlazarCode IT</h1>
+    </header>
+    <section class="hero">
+        <h2>Innovative Software Solutions</h2>
+    </section>
+    <div class="container">
+        <section class="about">
+            <h2>About Us</h2>
+            <p>BlazarCode IT is a software development company dedicated to delivering innovative solutions that meet the unique needs of our clients. Our team of expert developers and designers work tirelessly to create software that drives business success.</p>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Custom Software Development</li>
+                <li>Mobile App Development</li>
+                <li>Web Application Development</li>
+                <li>Software Consulting</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="https://www.blzarcode.com/contact" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 BlazarCode IT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
